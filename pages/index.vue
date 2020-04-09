@@ -2,12 +2,12 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
-        <logo />
-        <vuetify-logo />
+        <!-- eslint-disable-next-line -->
+        <img src="~static/v.png" alt="Vuetify.js" class="mb-5" />
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          Welcome to the Vuetify!
         </v-card-title>
         <v-card-text>
           <validation-observer>
@@ -72,23 +72,19 @@
 <script>
 import { ValidationObserver, ValidationProvider, extend } from 'vee-validate'
 import { required } from 'vee-validate/dist/rules'
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
   components: {
     ValidationObserver,
     ValidationProvider,
-    Logo,
-    VuetifyLogo
   },
   data() {
     return {
-      example: null
+      example: null,
     }
   },
   mounted() {
     extend('required', required)
-  }
+  },
 }
 </script>

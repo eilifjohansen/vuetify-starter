@@ -7,7 +7,7 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          Be inspired by Vuetify
         </v-card-title>
         <v-card-text>
           <p>
@@ -64,6 +64,6 @@
 export default {
   data() {
     return {}
-  }
+  },
 }
 </script>
