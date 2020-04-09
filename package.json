@@ -1,23 +1,9 @@
 {
-  "name": "nuxt-pwa-vuetify-starter",
+  "name": "vuetify-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "Nuxt.js + PWA + Vuetify.js starter project",
-  "keywords": [
-    "nuxt",
-    "nuxt pwa",
-    "nuxt.js",
-    "nuxtjs",
-    "vue",
-    "vue pwa",
-    "vue ssr",
-    "vue universal",
-    "vue.js",
-    "vuejs",
-    "vuetify",
-    "vuetify.js",
-    "vuetifyjs"
-  ],
+  "description": "",
+  "keywords": [],
   "homepage": "https://github.com/jefrydco/nuxt-pwa-vuetify-starter#readme",
   "repository": {
     "type": "git",
